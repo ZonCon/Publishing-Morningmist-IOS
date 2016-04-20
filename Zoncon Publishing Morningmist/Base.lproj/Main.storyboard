@@ -479,13 +479,13 @@
                         <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="OPP-6G-d3k">
                             <size key="itemSize" width="320" height="136"/>
-                            <size key="headerReferenceSize" width="50" height="16"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="50" height="50"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OrdersListCell" id="muI-qi-pkX" customClass="OrdersListCollectionViewCell">
-                                <rect key="frame" x="0.0" y="16" width="320" height="136"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="136"/>
@@ -615,23 +615,8 @@
                                 </connections>
                             </collectionViewCell>
                         </cells>
-                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OrdersListHeader" id="UDW-FS-jWN">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="16"/>
-                            <autoresizingMask key="autoresizingMask"/>
-                            <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="necklace_bar.png" translatesAutoresizingMaskIntoConstraints="NO" id="ELm-wO-rUe">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="16"/>
-                                </imageView>
-                            </subviews>
-                            <constraints>
-                                <constraint firstItem="ELm-wO-rUe" firstAttribute="top" secondItem="UDW-FS-jWN" secondAttribute="topMargin" constant="-8" id="12r-iD-9XF"/>
-                                <constraint firstAttribute="trailingMargin" secondItem="ELm-wO-rUe" secondAttribute="trailing" constant="-8" id="93E-7w-6kQ"/>
-                                <constraint firstItem="ELm-wO-rUe" firstAttribute="leading" secondItem="UDW-FS-jWN" secondAttribute="leadingMargin" constant="-8" id="QHD-Lu-qhu"/>
-                                <constraint firstAttribute="bottomMargin" secondItem="ELm-wO-rUe" secondAttribute="bottom" constant="-8" id="yho-S4-e5b"/>
-                            </constraints>
-                        </collectionReusableView>
                         <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OrdersListFooter" id="xF7-jw-75c" customClass="OrdersListFooterCollectionReusableView">
-                            <rect key="frame" x="0.0" y="152" width="320" height="50"/>
+                            <rect key="frame" x="0.0" y="136" width="320" height="50"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOAD MORE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVw-E7-Nuv">
@@ -1334,7 +1319,6 @@
         <image name="alert" width="22" height="22"/>
         <image name="cover.jpg" width="300" height="300"/>
         <image name="loading.jpg" width="700" height="750"/>
-        <image name="necklace_bar.png" width="720" height="46"/>
         <image name="shop" width="22" height="22"/>
         <image name="sidebar" width="22" height="22"/>
         <image name="title_logo" width="82" height="22"/>
